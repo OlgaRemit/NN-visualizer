@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+from .loader import Loader
+
 class CSVLoader(Loader):
     def __init__(self,
         file: str,
